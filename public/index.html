@@ -70,11 +70,11 @@
                 <div class="title"><h1>Interstellar</h1></div>
 		<br>
 		<h2>Springbreak Countdown:</h2>
-<p id="timer"></p>
+<p id="demo"></p>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("March 11, 2023 03:45").getTime();
+var countDownDate = new Date("March 11, 2023 03:45:10").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -98,7 +98,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Spring Break!!";
+    document.getElementById("demo").innerHTML = "Spring Break!!";
   }
 }, 1000);
 </script>
